@@ -1,28 +1,3 @@
-/* .App{
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20%;
-    padding: 20%;
-    text-align: center;
-}
-
-
-
-th{
-    font-size: large;
-    color: brown;
-    padding-right:150px ;
-
-}
-
-td{
-    font-size: medium;
-    color: blue;
-    padding-right: 150px;
-} */
-
 .App {
     text-align: center;
   }
@@ -49,5 +24,59 @@ td{
   .table th {
     background-color: #007bff;
     color: brown;
+  }
+  .add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .add-box {
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+   
+  }
+  
+  .form-control {
+    width: 100%;
+    padding-right: 1px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .update-btn {
+    background:green;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .delete-btn {
+    background:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
   }
   
